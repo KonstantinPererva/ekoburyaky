@@ -1,4 +1,4 @@
-[ekoburyaky.in.ua](http://ekoburyaky.in.ua) - сайт, который я разрабатываю для своих знакомых.
+[ekoburyaky.in.ua](http://ekoburyaky.in.ua)
 
 * Адаптивная верстка
 * Корзина пользователя
