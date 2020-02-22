@@ -224,14 +224,14 @@ echo '
 							<hr />
 							<div class="row">
 								<div class="col-xs-12" id = "verificationInformation">
-									<ul id="list-info">
-										<li><strong>Имя :</strong> '.$_SESSION["order_name"].'</li>
-										<li><strong>E-mail :</strong> '.$_SESSION["order_email"].'</li>
-										<li><strong>Телефон :</strong> '.$_SESSION["order_tel"].'</li>
-										<li><strong>Примечание :</strong> '.$_SESSION["order_note"].'</li>
-										<li><strong>Сумма заказа :</strong> '.$pricecart.' грн.</li>
-										<li><strong>Товар :</strong>
-											<ol>
+<ul id="list-info">
+	<li><strong>Имя :</strong> '.$_SESSION["order_name"].'</li>
+	<li><strong>E-mail :</strong> '.$_SESSION["order_email"].'</li>
+	<li><strong>Телефон :</strong> '.$_SESSION["order_tel"].'</li>
+	<li><strong>Примечание :</strong> '.$_SESSION["order_note"].'</li>
+	<li><strong>Сумма заказа :</strong> '.$pricecart.' грн.</li>
+	<li><strong>Товар :</strong>
+		<ol>
 	';
 
  	 $result = mysql_query("SELECT * FROM cart,table_products WHERE cart.cart_ip = '{$_SERVER['REMOTE_ADDR']}' AND table_products.products_id = cart.cart_id_products",$link);
@@ -243,15 +243,15 @@ echo '
  		$all_price = $all_price+$int;
  	
 	echo '
-												<li>'.$row["title"].' - <b>'.$row['cart_count'].'</b> шт - <b>'.$int.'</b> грн</li>
+	<li>'.$row["title"].' - <b>'.$row['cart_count'].'</b> шт - <b>'.$int.'</b> грн</li>
 	';
 }
 	while($row = mysql_fetch_array($result)); 
  };	
 echo '
-											</ol>
-										</li>
-									</ul>
+		</ol>
+	</li>
+</ul>
 									<form method="POST" id="orderedGoods">
 										<p><input type="submit" id="subDataOrder" value="Заказать" class="btn_green in-btn-cart" name="subDataOrder"></p>
 										<textarea name="dataOrder" id="textOrderedGoods" style="visibility:hidden;"></textarea>
@@ -354,15 +354,21 @@ echo '
 
 				</div>
 <script>
-	  function sub() {
-		function Order(){
-			var data = document.getElementById('verificationInformation').textContent;
-			document.getElementById('textOrderedGoods').value = data;
-		}
-		document.getElementById('subDataOrder').addEventListener("click",Order);
-	  }
+    if (document.getElementById('subDataOrder')) {
+        function sub() {
+            function order(){
+                var data = document.getElementById('verificationInformation').textContent;
+                document.getElementById('textOrderedGoods').value = data;
+            }
+            document.getElementById('subDataOrder').addEventListener("click", function () {
+                order()
+            });
+        }
 
-	  document.addEventListener("DOMContentLoaded", sub);
+        document.addEventListener("DOMContentLoaded", function () {
+            sub();
+        });
+    }
 </script>
 <?php 
 include 'include/footer.php';

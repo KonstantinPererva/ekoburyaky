@@ -47,7 +47,7 @@ function loadcart(){
 			}
 		}
 	});
-};
+}
 
 $('.count_minus').click(function(){
 	var iid = $(this).attr('data-cartId');
@@ -128,7 +128,7 @@ function cartInTotal() {
 			$('.cart_in_total>h2>strong').html(data);
 		}
 	});
-};
+}
 
 function cartCount() {
 	$.ajax({
@@ -144,7 +144,7 @@ function cartCount() {
 			}
 		}
 	});
-};
+}
 
 $(function(){
 	$(".dropdown-menu > li > a.trigger").on("click",function(e){
@@ -173,7 +173,7 @@ function locat(){
 			var a = 'index-'+arrLoc.indexOf(arrLoc[i]);
 			document.getElementById(a).setAttribute('class','active_menu_s');
 		}
-	};
+	}
 	if(window.location.pathname == '/'){
 		document.getElementById('index-0').setAttribute('class','active_menu_s');
 		document.getElementById('index-6').setAttribute('class','active-xs-menu');
@@ -190,49 +190,37 @@ function locat(){
 			var b = 'index-'+arrLocat.indexOf(arrLocat[j]);
 			document.getElementById(b).setAttribute('class','active-xs-menu');
 		}
+	}
+}
+
+//---Click button menu
+$(document).ready(function() {
+var btnMenu = document.getElementById('button-menu');
+btnMenu.addEventListener("click",openMenu);
+function openMenu(){
+	var menu = document.getElementById('Menu');
+	if(menu.getAttribute('style') == 'display:block'){
+		menu.setAttribute('style','display:none');
+		document.getElementById('icnTable').setAttribute('class','icn-table');
+		$('#index-7,#index-8,#index-20,#index-21,#index-30').siblings('ul').slideUp(300);
+	}else{
+		menu.setAttribute('style','display:block');
+		document.getElementById('icnTable').setAttribute('class','icn-close');
 	};
 };
 
-
-//---Map---
-
-ymaps.ready(function () {
-    var myMap = new ymaps.Map('map-index', {
-            center: [49.66568338272061,36.15778025893022],
-            zoom: 14
-        }, {
-            searchControlProvider: 'yandex#search'
-        }),
-        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-        	hintContent: '<span style="display:block;border:1px solid #159;color:#159;font-size:13px;margin:-10px;padding:10px;background:#fff;font-weight:bold;text-align:center;">ЭКОХОЗЯЙСТВО СЕМЬИ<br>БУРЯКОВСКИХ</span>',
-        	balloonContent: '<span style="display:block;font-weight:bold;padding:10px;">Качественные органические продукты<br>в наличии и под заказ.</span><a href="products.php?product=milk"><img src="images/organic-1.jpg" alt="organic"></a> <a href="products.php?product=vegetables_and_fruits"><img src="images/organic-2.jpg" alt="organic"></a> <a href="products.php?product=conservation"><img src="images/organic-3.jpg" alt="organic"></a>'
-        }, {
-            iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: 'images/mark_map.png',
-            // Размеры метки.
-            iconImageSize: [38, 54],
-            iconImageOffset: [-30, -60]
-        });
-
-        myMap.behaviors.disable("scrollZoom"),
-        myMap.geoObjects.add(myPlacemark),
-        myMap.behaviors.disable("multiTouch")
-});
-
-//---Click button menu
-$('.button-menu').click(function(){
-	$('.wr-xs-menu').slideToggle('slow');
-	$('.button-menu i').toggleClass('icn-close');
-	$('#index-7,#index-8,#index-20,#index-21,#index-30').siblings('ul').slideUp(300);
-});
+// $('#button-menu').click(function(){
+// 	$('.wr-xs-menu').slideToggle(300);
+// 	$('.button-menu i').toggleClass('icn-close');
+// 	$('#index-7,#index-8,#index-20,#index-21,#index-30').siblings('ul').slideUp(300);
+// });
 
 //---Click Ul open-menu
 $('#index-7,#index-8,#index-20,#index-21,#index-30').click(function(e){
 	e.preventDefault();
-	$(this).siblings('ul').slideToggle('slow').parent('li').siblings('li').find('ul').slideUp(300);
+	$(this).siblings('ul').slideToggle(300).parent('li').siblings('li').find('ul').slideUp(300);
 });
-
+});
 //---form data_order---
 $('#orderedGoods').submit(function(){
 	$.ajax({

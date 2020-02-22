@@ -2,7 +2,7 @@
 
 $name = $_POST['name'];
 $tel = $_POST['tel'];
-$to = 'irenpoz@yandex.ru';
+$to = 'info@ekoburyaky.in.ua';
 $subject = 'Перезвоните мне';
 $msg = "$name\n$tel";
 

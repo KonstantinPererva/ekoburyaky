@@ -20,7 +20,7 @@ if(mysql_num_rows($result) > 0){
 		echo '
 								<figure class="descr_prod">
 									<div class="col-md-6">
-										<img src="images/shop/img-products/img-big/'.$row["image"].'" alt="Товар" class="img-responsive">
+										<img src="images/shop/img-products/img-big/'.$row["image"].'" alt="Товар" class="img-responsive center-block img-thumbnail">
 									</div>
 									<div class="col-md-6">
 										<figcaption class="d_p_data">

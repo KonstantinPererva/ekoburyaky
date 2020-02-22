@@ -1,8 +1,8 @@
 <?php
 $db_host = 'localhost';
-$db_user = 'admin';
-$db_pass = '048204';
-$db_database = 'db_shop';
+$db_user = 'sjcraymx_admin';
+$db_pass = '040506ib';
+$db_database = 'sjcraymx_db';
 
 $link = mysql_connect($db_host,$db_user,$db_pass);
 

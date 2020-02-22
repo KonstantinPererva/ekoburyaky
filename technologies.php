@@ -61,13 +61,13 @@ echo '
 								<div class="col-xs-12">
 									<p>Наш дом называется <strong>Triple Roundhouse Cluster</strong>. Автор <strong>Owen Geiger</strong>. Дом врезан в южный склон. Материал стен – мешки с землёй. Также при строительстве применялись: утепление камышом, зеленая кровля, гидроизоляция (ПВХ плёнка 0,5мм), земляной пол, обработанный олифой, натуральная краска для стен и потолка. Видимые поверхности заштукатурены саманной штукатуркой. В доме имеется водопровод, канализация, сан. узел, горячая и тёплая вода. Площадь дома около 60м². он сухой и тёплый. Отопление дровяное: печи-ракеты с лежанками в спальных комнатах и универсальная печь на кухне. Заглубление с трёх сторон в землю и хорошая теплоизоляция южной стены выравнивают микроклимат и делают его очень экономным в отоплении.
 										<div class="wr-img text-center">
-											<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-building/img-big/room1.JPG">	
+											<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/room1.JPG">	
 												<img src="images/img-technologies/img-building/img-small/room1.JPG" alt="" class="img_ab_us room" width="30%">
 											</a>
-											<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-building/img-big/room2.JPG">
+											<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/room2.JPG">
 												<img src="images/img-technologies/img-building/img-small/room2.JPG" alt="" class="img_ab_us room" width="30%">
 											</a>
-											<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-building/img-big/room3.JPG">
+											<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/room3.JPG">
 												<img src="images/img-technologies/img-building/img-small/room3.JPG" alt="" class="img_ab_us room" width="30%">
 											</a>
 										</div>
@@ -77,22 +77,22 @@ echo '
 									<div class="wr_cont bg_grey">
 										<p>Ещё одно монументальное сооружение – <strong>валипини</strong>, «тёплое место» на языке идейцев. Это большая яма (6х12м) на склоне: стены её укреплены мешками с землёй и заштукатурены, 1/3 кровли – «земляная», 2/3 – прозрачный шифер. Пол имеет три террасы: 1- ячейки для коз, курей и кормов, 2-3 – это грядки.
 											<div class="wr-img text-center">
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny1.jpg">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny1.jpg">
 													<img src="images/img-technologies/img-building/img-small/valipiny1.jpg" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny2.jpg">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny2.jpg">
 													<img src="images/img-technologies/img-building/img-small/valipiny2.jpg" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny3.JPG">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny3.JPG">
 													<img src="images/img-technologies/img-building/img-small/valipiny3.JPG" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny4.jpg">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny4.jpg">
 													<img src="images/img-technologies/img-building/img-small/valipiny4.jpg" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny5.jpg">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny5.jpg">
 													<img src="images/img-technologies/img-building/img-small/valipiny5.jpg" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
-												<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-building/img-big/valipiny6.jpg">
+												<a class="fancybox slide_a" data-fancybox-group="gallery1" href="images/img-technologies/img-building/img-big/valipiny6.jpg">
 													<img src="images/img-technologies/img-building/img-small/valipiny6.jpg" alt="valipiny" class="img_ab_us room" width="30%">
 												</a>
 											</div>
@@ -125,18 +125,42 @@ echo '
 							<p>Мы выращиваем: овощи, фрукты, тыквенные, бахчу, бобовые, кормовые, зерновые, пряные растения, салаты, ягодные культуры и т. д.
 							</p>
 							<div class="wr-img text-center">
-								<img src="images/img-technologies/img-garden/img-small/garden1.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden2.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden3.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden4.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden5.JPG" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden6.JPG" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden7.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden8.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden9.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden10.JPG" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden11.JPG" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-garden/img-small/garden12.jpg" alt="" class="img_ab_us room" width="30%">
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden1.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden1.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden2.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden2.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden3.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden3.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden4.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden4.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden5.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden5.JPG" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden6.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden6.JPG" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden7.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden7.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden8.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden8.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden9.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden9.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden10.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden10.JPG" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden11.jpg">
+									<img src="images/img-technologies/img-garden/img-small/garden11.JPG" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery2" href="images/img-technologies/img-garden/img-big/garden12.jpg">	
+										<img src="images/img-technologies/img-garden/img-small/garden12.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
 							</div>
 						</div>
 ';
@@ -162,13 +186,19 @@ echo '
 						<div class="col-xs-12">
 							<p>В нижней точке нашего участка вырыто небольшое озеро (~ 4 сотки). В нём живёт несколько видов рыб (карп, амур, толстолоб, краснопёрка, сом канальный, линь, окунь), раки, лягушки, ужи, тритоны и черепахи. Кроме прочих растений аир болотный и водяные лилии. В озере мы купаемся, берём воду для полива, ловим рыбу. Летом мы не интенсивно кормим рыбу, но зимой помогаем выжить, аэрируя воздух с помощью ветряка. Наращивая объёмы производства червей, а в будущем возможно выращивание ряски, позволит в будущем увеличит выход рыбы. Если появятся излишки, то вы узнаете об этом в разделе <a href="products.php">«Магазин».</a>
 							<div class="wr-img text-center">
-								<img src="images/img-technologies/img-pond_farm/img-small/pond_farm1.jpg" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-pond_farm/img-small/pond_farm2.JPG" alt="" class="img_ab_us room" width="30%">
-								<img src="images/img-technologies/img-pond_farm/img-small/pond_farm3.jpg" alt="" class="img_ab_us room" width="30%">
+								<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-pond_farm/img-big/pond_farm1.jpg">
+									<img src="images/img-technologies/img-pond_farm/img-small/pond_farm1.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-pond_farm/img-big/pond_farm2.jpg">
+									<img src="images/img-technologies/img-pond_farm/img-small/pond_farm2.JPG" alt="" class="img_ab_us room" width="30%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery3" href="images/img-technologies/img-pond_farm/img-big/pond_farm3.jpg">
+									<img src="images/img-technologies/img-pond_farm/img-small/pond_farm3.jpg" alt="" class="img_ab_us room" width="30%">
+								</a>
 							</div>
-							<h3 class="text-center">Ветряк подает воздух в озеро рыбе</h3>
+							<h3 class="text-center windmill">Ветряк подает воздух в озеро рыбе</h3>
 							<div class="wr-iframe-pond_farm">
-								<iframe width="100%" height="300" src="https://www.youtube.com/embed/5vAfRAiIuQM" frameborder="0" allowfullscreen></iframe>
+								<iframe width="100%" height="300" src="https://www.youtube.com/embed/5vAfRAiIuQM?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 ';
@@ -224,7 +254,9 @@ echo '
 						<div class="col-xs-12 clearfix">
 							<h2 class="techn-h2 text-center text-uppercase"><i class="icon icn-water"></i>Вода</h2>
 							<p>
-								<img src="images/img-technologies/img-w-e-h/img-small/lake.JPG" alt="" class="img_ab_us img-left">
+								<a class="fancybox slide_a" data-fancybox-group="gallery4" href="images/img-technologies/img-w-e-h/img-big/lake.JPG">	
+									<img src="images/img-technologies/img-w-e-h/img-small/lake.JPG" alt="" class="img_ab_us img-left">
+								</a>
 								Наш участок расположен на склоне. Уровень грунтовых вод колеблется от 0,5м до 30м. Внизу выкопан водоём площадью около 4-х сотых. На участке 4 скважины: 3 из них сделаны нами (10м, 12м, 15м) по технологии EMAS (смотрите полезные ссылки). Скважины, используемые круглогодично, сделаны в помещении погреба и теплицы, предназначенные для полива, находятся ближе к огороду. Качаем воду ручными насосами (EMAS water pump) – простые и безотказные могут поднять воду с глубины 20 м и нагнетать на такую же высоту.
 							</p>
 						</div>
@@ -238,8 +270,12 @@ echo '
 								<p>Кроме солнца и ветра, энергию нам дают дрова, которые традиционно заготавливаются в конце осени-зимой на весь следующий сезон.
 								</p>
 								<div class="wr-img text-center">
-									<img src="images/img-technologies/img-w-e-h/img-middle/windmill1.JPG" alt="" class="img_ab_us room" width="45%">
-									<img src="images/img-technologies/img-w-e-h/img-middle/windmill2.JPG" alt="" class="img_ab_us room" width="45%">
+									<a class="fancybox slide_a" data-fancybox-group="gallery4" href="images/img-technologies/img-w-e-h/img-big/windmill1.JPG">
+										<img src="images/img-technologies/img-w-e-h/img-middle/windmill1.JPG" alt="" class="img_ab_us room" width="45%">
+									</a>
+									<a class="fancybox slide_a" data-fancybox-group="gallery4" href="images/img-technologies/img-w-e-h/img-big/windmill2.JPG">
+										<img src="images/img-technologies/img-w-e-h/img-middle/windmill2.JPG" alt="" class="img_ab_us room" width="45%">
+									</a>
 								</div>
 							</div>
 						</div>
@@ -251,8 +287,12 @@ echo '
 							<p>Каждая из двух спален оборудована печью-ракетой с лежанкой (Rocket mass heater) Янто Эйванса.
 							</p>
 							<div class="wr-img text-center">
-								<img src="images/img-technologies/img-w-e-h/img-middle/heater1.JPG" alt="" class="img_ab_us room" width="45%">
-								<img src="images/img-technologies/img-w-e-h/img-middle/heater2.JPG" alt="" class="img_ab_us room" width="45%">
+								<a class="fancybox slide_a" data-fancybox-group="gallery4" href="images/img-technologies/img-w-e-h/img-big/heater1.JPG">
+									<img src="images/img-technologies/img-w-e-h/img-middle/heater1.JPG" alt="" class="img_ab_us room" width="45%">
+								</a>
+								<a class="fancybox slide_a" data-fancybox-group="gallery4" href="images/img-technologies/img-w-e-h/img-big/heater2.JPG">
+									<img src="images/img-technologies/img-w-e-h/img-middle/heater2.JPG" alt="" class="img_ab_us room" width="45%">
+								</a>
 							</div>
 							<p>Это необычные для наших широт и почти неизвестные нашим печникам печи. Они просты, в несколько раз эффективнее любой другой конструкции, дешевы в изготовлении. Топим мы их в холодное время года с частотой 1-3 раза в неделю в зависимости от погодных условий и личных пожеланий. Печь-ракета после розжига начинает прогревать воздух помещения, а через пару часов прогревается лежанка. Обычно хватает одной закладки дров. Следует отметить, что оригинал печи, описанный здесь, был изменён под местные наши условия.</p>
 							<p>На летней площадке тоже есть двухкомфорочная печь с большой духовкой.</p>
@@ -277,9 +317,9 @@ echo '
 						<div class="col-xs-12">
 							<p>Наш дом называется <strong>Triple Roundhouse Cluster</strong>. Автор <strong>Owen Geiger</strong>. Дом врезан в южный склон. Материал стен – мешки с землёй. Также при строительстве применялись: утепление камышом, зеленая кровля, гидроизоляция (ПВХ плёнка 0,5мм), земляной пол, обработанный олифой, натуральная краска для стен и потолка. Видимые поверхности заштукатурены саманной штукатуркой. В доме имеется водопровод, канализация, сан. узел, горячая и тёплая вода. Площадь дома около 60м². он сухой и тёплый. Отопление дровяное: печи-ракеты с лежанками в спальных комнатах и универсальная печь на кухне. Заглубление с трёх сторон в землю и хорошая теплоизоляция южной стены выравнивают микроклимат и делают его очень экономным в отоплении.
 								<div class="wr-img text-center">
-									<img src="images/img-technologies/img-building/img-small/room1.jpg" alt="" class="img_ab_us room" width="30%">
-									<img src="images/img-technologies/img-building/img-small/room2.jpg" alt="" class="img_ab_us room" width="30%">
-									<img src="images/img-technologies/img-building/img-small/room3.jpg" alt="" class="img_ab_us room" width="30%">
+									<img src="images/img-technologies/img-building/img-small/room1.JPG" alt="" class="img_ab_us room" width="30%">
+									<img src="images/img-technologies/img-building/img-small/room2.JPG" alt="" class="img_ab_us room" width="30%">
+									<img src="images/img-technologies/img-building/img-small/room3.JPG" alt="" class="img_ab_us room" width="30%">
 								</div>
 							</p>
 						</div>
@@ -289,7 +329,7 @@ echo '
 									<div class="wr-img text-center">
 										<img src="images/img-technologies/img-building/img-small/valipiny1.jpg" alt="" class="img_ab_us room" width="30%">
 										<img src="images/img-technologies/img-building/img-small/valipiny2.jpg" alt="" class="img_ab_us room" width="30%">
-										<img src="images/img-technologies/img-building/img-small/valipiny3.jpg" alt="" class="img_ab_us room" width="30%">
+										<img src="images/img-technologies/img-building/img-small/valipiny3.JPG" alt="" class="img_ab_us room" width="30%">
 										<img src="images/img-technologies/img-building/img-small/valipiny4.jpg" alt="" class="img_ab_us room" width="30%">
 										<img src="images/img-technologies/img-building/img-small/valipiny5.jpg" alt="" class="img_ab_us room" width="30%">
 										<img src="images/img-technologies/img-building/img-small/valipiny6.jpg" alt="" class="img_ab_us room" width="30%">

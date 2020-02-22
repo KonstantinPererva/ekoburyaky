@@ -1,4 +1,5 @@
-	<div class="container">
+
+		<div class="container">
 			<div class="row">
 				<div class="col-md-3 hidden-sm hidden-xs">
 					<div class="sidebar">
@@ -15,55 +16,55 @@
 										<span class="caret"></span>
 									</a>
 									<ul class="dropdown-menu">
-											<li>
-												<a href="technologies.php?page=building" class="aside-link">Строительство</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=water_energy_heating" class="aside-link">Вода, энергия, отопление</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=garden" class="aside-link">Огород</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=grounds" class="aside-link">Сад</a>
-											</li>
-											<li>
-												<a class="trigger right-caret" class="aside-link">Домашние животные</a>
-												
-												<ul class="dropdown-menu sub-menu">
-													<li>
-														<a class="trigger right-caret" class="aside-link">Козы</a>
-														
-														<ul class="dropdown-menu sub-menu">
-															<li>
-																<a href="pets.php?page=goats_keep" class="aside-link">Содержание</a>
-															</li>
-															<li>
-																<a href="pets.php?page=goats_breeding" class="aside-link">Племенная работа</a>
-															</li>
-															<li>
-																<a href="pets.php?page=goats_veterinary_science" class="aside-link">Ветеринария</a>
-															</li>
-														</ul>
-													</li>
-													<li>
-														<a href="pets.php?page=bird" class="aside-link">Птица</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="technologies.php?page=provision" class="aside-link">Заготовка и переработка продуктов</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=beekeeping" class="aside-link">Пчеловодство</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=pond_farm" class="aside-link">Прудовое хозяйство</a>
-											</li>
-											<li>
-												<a href="technologies.php?page=crafts" class="aside-link">Народные промыслы</a>
-											</li>
-										</ul>
+										<li>
+											<a href="technologies.php?page=building" class="aside-link">Строительство</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=water_energy_heating" class="aside-link">Вода, энергия, отопление</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=garden" class="aside-link">Огород</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=grounds" class="aside-link">Сад</a>
+										</li>
+										<li>
+											<a class="trigger right-caret" class="aside-link">Домашние животные</a>
+											
+											<ul class="dropdown-menu sub-menu">
+												<li>
+													<a class="trigger right-caret" class="aside-link">Козы</a>
+													
+													<ul class="dropdown-menu sub-menu">
+														<li>
+															<a href="pets.php?page=goats_keep" class="aside-link">Содержание</a>
+														</li>
+														<li>
+															<a href="pets.php?page=goats_breeding" class="aside-link">Племенная работа</a>
+														</li>
+														<li>
+															<a href="pets.php?page=goats_veterinary_science" class="aside-link">Ветеринария</a>
+														</li>
+													</ul>
+												</li>
+												<li>
+													<a href="pets.php?page=bird" class="aside-link">Птица</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="technologies.php?page=provision" class="aside-link">Заготовка и переработка продуктов</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=beekeeping" class="aside-link">Пчеловодство</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=pond_farm" class="aside-link">Прудовое хозяйство</a>
+										</li>
+										<li>
+											<a href="technologies.php?page=crafts" class="aside-link">Народные промыслы</a>
+										</li>
+									</ul>
 								</li>
 								<li class="dropdown" style="position:relative">
 									<a href="#" data-toggle="dropdown" class="aside-link-1" id="index-2"><i class="fa fa-pagelines" aria-hidden="true"></i>
@@ -89,7 +90,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="products.php?product=young_animals" class="aside-link">Молодняк</a>
+											<a href="products.php?product=goats" class="aside-link">Козы</a>
 										</li>
 										<li>
 											<a href="products.php?product=seedling" class="aside-link">Посадматериал</a>

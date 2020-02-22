@@ -16,8 +16,24 @@ include 'include/container.php';
 								<?php echo $t; ?></h2>
 							<div class="row">
 								<div class="col-sm-6 col-xs-12">
-									<div id="map-index" style="width:100%; height:250px; margin-bottom: 20px;" class="img_ab_us"></div>
+									<div id="map" style="width:100%; height:250px; margin-bottom: 20px;" class="img_ab_us"></div>
 								</div>
+                                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAO1G8MC4ZYQ_B7k5repEKfiz1KSeS8cHg&callback=initMap"></script>
+                                <script>
+                                    function initMap(){
+                                        var map = new google.maps.Map(document.getElementById('map'),{
+                                            zoom: 11,
+                                            center: {lat: 49.665675, lng: 36.158005},
+                                            scrollwheel: false
+                                        });
+                                        var marker = new google.maps.Marker({
+                                            position: {lat: 49.665675, lng: 36.158005},
+                                            map: map,
+                                            visible: true,
+                                            icon: 'images/mark_map.png'
+                                        });
+                                    };
+                                </script>
 								<div class="col-sm-6 col-xs-12">
 									<address class="address">
 										<span> <i class="fa fa-phone text-green" aria-hidden="true"></i>

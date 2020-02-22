@@ -57,133 +57,127 @@
 					</a>
 				</div>
 				<div class="col-xs-2">
-					<div class="button-menu pull-right">
-						<i class="icn-table"></i>
+					<div class="button-menu pull-right" id="button-menu">
+						<i id="icnTable" class="icn-table"></i>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="wr-xs-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12">
-						<ul class="xs-menu list-unstyled">
-							<li>
-								<a href="index.php" id="index-6">О нас</a>
-							</li>
-							<li style="position:relative">
-								<a href="#" id="index-7">
-									Наши технологии
-									<span class="caret"></span>
-								</a>
-								<ul class="list-unstyled close-menu" id="level-1">
-									<li>
-										<a href="technologies.php?page=building">Строительство</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=water_energy_heating">Вода, энергия, отопление</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=garden">Огород</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=grounds">Сад</a>
-									</li>
-									<li style="position:relative">
-										<a href"#" id="index-20">Домашние животные
-											<span class="caret"></span>
-										</a>
-										<ul class="list-unstyled close-menu" id="level-2">
-											<li style="position:relative">
-												<a href"#" id="index-30">Козы
-													<span class="caret"></span>
-												</a>
-												<ul class="list-unstyled close-menu" id="level-3">
-													<li>
-														<a href="pets.php?page=goats_keep">Содержание</a>
-													</li>
-													<li>
-														<a href="pets.php?page=goats_breeding">Племенная работа</a>
-													</li>
-													<li>
-														<a href="pets.php?page=goats_veterinary_science">Ветеринария</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="pets.php?page=bird">Птица</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="technologies.php?page=provision">Заготовка и переработка продуктов</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=beekeeping">Пчеловодство</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=pond_farm">Прудовое хозяйство</a>
-									</li>
-									<li>
-										<a href="technologies.php?page=crafts">Народные промыслы</a>
-									</li>
-								</ul>
-							</li>
-							<li style="position:relative">
-								<a href="#" id="index-8">
-									Магазин
-									<span class="caret"></span>
-								</a>
-								<ul class="list-unstyled close-menu" id="level-4">
-									<li style="position:relative">
-										<a href="#" id="index-21">Продукты питания
-											<span class="caret"></span>
-										</a>
-										<ul class="list-unstyled close-menu" id="level-5">
-											<li>
-												<a href="products.php?product=milk">Молочные</a>
-											</li>
-											<li>
-												<a href="products.php?product=vegetables_and_fruits">Свежие овощи, фрукты</a>
-											</li>
-											<li>
-												<a href="products.php?product=conservation">Консервация</a>
-											</li>
-											<li>
-												<a href="products.php?product=drying">Сушка</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="products.php?product=young_animals">Молодняк</a>
-									</li>
-									<li>
-										<a href="products.php?product=seedling">Посадматериал</a>
-									</li>
-									<li>
-										<a href="products.php?product=service">Услуги</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="articles.php" id="index-9">Статьи</a>
-							</li>
-							<li>
-								<a href="cooperation.php" id="index-10">Сотрудничество</a>
-							</li>
-							<li>
-								<a href="contacts.php" id="index-11">Контакты</a>
-							</li>
-							<li>
-								<a href="#form_call" class="fancybox btn_blue text-center">Заказать звонок</a>
-							</li>
-							<li>
-								<a href="#form_question" class="fancybox btn_orange text-center">Задать вопрос</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+		<div class="wr-xs-menu" id="Menu">
+			<ul class="xs-menu list-unstyled">
+				<li>
+					<a href="index.php" id="index-6">О нас</a>
+				</li>
+				<li style="position:relative">
+					<a href="#" id="index-7">
+						Наши технологии
+						<span class="caret"></span>
+					</a>
+					<ul class="list-unstyled close-menu" id="level-1">
+						<li>
+							<a href="technologies.php?page=building">Строительство</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=water_energy_heating">Вода, энергия, отопление</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=garden">Огород</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=grounds">Сад</a>
+						</li>
+						<li style="position:relative">
+							<a href"#" id="index-20">Домашние животные
+								<span class="caret"></span>
+							</a>
+							<ul class="list-unstyled close-menu" id="level-2">
+								<li style="position:relative">
+									<a href"#" id="index-30">Козы
+										<span class="caret"></span>
+									</a>
+									<ul class="list-unstyled close-menu" id="level-3">
+										<li>
+											<a href="pets.php?page=goats_keep">Содержание</a>
+										</li>
+										<li>
+											<a href="pets.php?page=goats_breeding">Племенная работа</a>
+										</li>
+										<li>
+											<a href="pets.php?page=goats_veterinary_science">Ветеринария</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="pets.php?page=bird">Птица</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="technologies.php?page=provision">Заготовка и переработка продуктов</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=beekeeping">Пчеловодство</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=pond_farm">Прудовое хозяйство</a>
+						</li>
+						<li>
+							<a href="technologies.php?page=crafts">Народные промыслы</a>
+						</li>
+					</ul>
+				</li>
+				<li style="position:relative">
+					<a href="#" id="index-8">
+						Магазин
+						<span class="caret"></span>
+					</a>
+					<ul class="list-unstyled close-menu" id="level-4">
+						<li style="position:relative">
+							<a href="#" id="index-21">Продукты питания
+								<span class="caret"></span>
+							</a>
+							<ul class="list-unstyled close-menu" id="level-5">
+								<li>
+									<a href="products.php?product=milk">Молочные</a>
+								</li>
+								<li>
+									<a href="products.php?product=vegetables_and_fruits">Свежие овощи, фрукты</a>
+								</li>
+								<li>
+									<a href="products.php?product=conservation">Консервация</a>
+								</li>
+								<li>
+									<a href="products.php?product=drying">Сушка</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="products.php?product=goats">Козы</a>
+						</li>
+						<li>
+							<a href="products.php?product=seedling">Посадматериал</a>
+						</li>
+						<li>
+							<a href="products.php?product=service">Услуги</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="articles.php" id="index-9">Статьи</a>
+				</li>
+				<li>
+					<a href="cooperation.php" id="index-10">Сотрудничество</a>
+				</li>
+				<li>
+					<a href="contacts.php" id="index-11">Контакты</a>
+				</li>
+				<li>
+					<a href="#form_call" class="fancybox btn_blue text-center">Заказать звонок</a>
+				</li>
+				<li>
+					<a href="#form_question" class="fancybox btn_orange text-center">Задать вопрос</a>
+				</li>
+			</ul>
 		</div>
 	</nav>
 	<header class="header">

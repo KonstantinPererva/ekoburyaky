@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$to = 'irenpoz@yandex.ru';
+$to = 'info@ekoburyaky.in.ua';
 $subject = 'Форма обратной связи';
 $msg = "Имя: $name\r\nE-mail: $email\r\nСообщение: $message";
 

@@ -121,7 +121,7 @@ address{
 }
 .header,
 .footer{
-	background: url(../images/bg-h-1.jpg) no-repeat;
+	background: url(/images/bg-h-1.jpg) no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -265,7 +265,7 @@ address{
 }
 .menu_s{
 	padding-top: 100px;
-	background: url(../images/menu.png) no-repeat center 5px;
+	background: url(/images/menu.png) no-repeat center 5px;
 }
 .menu_s li{
 	position: relative;
@@ -323,7 +323,7 @@ address{
 	display: block;
 	width: 100%;
 	height: 90px;
-	background: url(../images/bg-footer.png) repeat-x left bottom;
+	background: url(/images/bg-footer.png) repeat-x left bottom;
 	background-size: 80%, 80%;
 }
 .logo_footer{
@@ -340,21 +340,22 @@ address{
 	padding-left: 5px;
 	padding-top: 20px;
 }
-.soc_link{
-	display: block;
+.link_footer a.soc_link{
+	display: inline-block;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	float: left;
 	border-radius: 50%;
 	margin-right: 15px;
+	vertical-align: top;
 }
 .soc_vk{
 	border: 2px solid #3E779D;
 }
-.soc_ok{
-	border: 2px solid #EA7400;
+.soc_khf{
+	background: url(/images/kharkov-forum.png) no-repeat center;
+	background-size: 100%;
 }
 .soc_f{
 	border: 2px solid #2F61A0;
@@ -365,20 +366,15 @@ address{
 	left: -1px;
 	color: #3E779D;
 }
-.soc_ok i{
-	position: relative;
-	top: 2px;
-	color: #EA7400;
-}
 .soc_f i{
 	position: relative;
 	top: 3px;
 	color: #2F61A0;
 }
-.soc_link i{
+.link_footer a.soc_link i{
 	font-size: 26px;
 }
-.soc_link:hover i{
+.link_footer a.soc_link:hover i{
 	color: #fff;
 }
 .soc_vk:hover {
@@ -390,7 +386,7 @@ address{
 .soc_f:hover {
 	background: #2F61A0;
 }
-.soc_link>img{
+.link_footer a.soc_link>img{
 	vertical-align: bottom;
 }
 .link_footer span{
@@ -451,7 +447,6 @@ address{
 }
 .h3-index::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 .h3-index::selection { background: #5af; color: #fff; text-shadow: none; }
-}
 .about_us_main{
 	padding-bottom: 20px;
 }
@@ -487,6 +482,16 @@ address{
 	margin: 0 -10px 0 -10px;
 }
 /*------------PRODUCTS-------------*/
+.wr-prod__img{
+	max-width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+.prod_card img.prod__img{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
 .h2-products{
 	font-size: 28px;
 	color: #005db9;
@@ -501,7 +506,8 @@ address{
 	padding: 5px 5px 0;
 	overflow: hidden;
 	box-sizing: border-box;
-	margin: 0 6px 15px
+	margin: 0 6px 15px;
+	vertical-align: top;
 }
 .prod_card img{
 	width: 100%;
@@ -596,7 +602,7 @@ address{
 .question{
 	min-height: 50px;
 	background-size: 50px auto;
-	background: #ecf9c9 url(../images/question.png) no-repeat right top;
+	background: #ecf9c9 url(/images/question.png) no-repeat right top;
 	background-size: 50px auto;
 	border-left: 10px solid #88be04;
 	cursor: pointer;
@@ -627,7 +633,7 @@ address{
 	border-bottom: 0;
 	text-align: center;
 }
-#map-index{
+#map{
 	width: 100%;
 	height: 400px;
 	padding: 0;
@@ -728,18 +734,20 @@ margin-bottom: 20px;
 	background: #f3f3f3;
 	border: 1px solid #88de04;
 	border-radius: 4px;
-	padding: 10px; 
+	padding: 10px 10px 20px; 
 	box-sizing: border-box;
 	margin-bottom: 20px;
+}
+.news_card h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 10px 0;
 }
 .img_news{
 	box-sizing: border-box;
 }
 .img_news img{
 	vertical-align: bottom;
-	outline: 1px solid #c7c7c7;
-	padding: 5px;
-	margin-bottom: 10px;
 }
 .date_news{
 	font-size: 18px;
@@ -1069,7 +1077,7 @@ a.active_step{
 }
 .technologies_main h2{
 	margin: 0;
-	padding: 10px 0;
+	padding: 30px 0;
 }
 .technologies_main .h2{
 	padding: 30px 0;
@@ -1082,31 +1090,31 @@ a.active_step{
 	margin-right: 15px;
 }
 .icn-building{
-	background: url(../images/building.png) no-repeat;
+	background: url(/images/building.png) no-repeat;
 }
 .icn-dried_fruits{
-	background: url(../images/dried_fruits.PNG) no-repeat;
+	background: url(/images/dried_fruits.png) no-repeat;
 }
 .icn-vegetables{
-	background: url(../images/vegetables.png) no-repeat;
+	background: url(/images/vegetables.png) no-repeat;
 }
 .icn-conservation{
-	background: url(../images/conservation.png) no-repeat;
+	background: url(/images/conservation.png) no-repeat;
 }
 .icn-water{
-	background: url(../images/water.png) no-repeat;
+	background: url(/images/water.png) no-repeat;
 }
 .icn-energy{
-	background: url(../images/energy.png) no-repeat;
+	background: url(/images/energy.png) no-repeat;
 }
 .icn-heating{
-	background: url(../images/heating.PNG) no-repeat;
+	background: url(/images/heating.png) no-repeat;
 }
 .icn-shopping_cart{
 	float: left;
 	width: 128px;
 	height: 85px;
-	background: url(../images/shopping_cart.png) no-repeat;
+	background: url(/images/shopping_cart.png) no-repeat;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -1114,7 +1122,9 @@ a.active_step{
 	max-width: 500px;
 	margin: 0 auto;
 }
-
+.windmill{
+	margin-top: 40px;
+}
 /*----PETS-----*/
 .prophylaxis{
 	list-style-type: circle;
@@ -1128,22 +1138,20 @@ a.active_step{
 }
 /*----TOP MENU----*/
 .wr-xs-menu{
-	position: fixed;
-	top: 44px;
+	position: absolute;
+	top: 51px;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 370px;
 	display: none;
 	background: #fff;
-	z-index: 999;
-	overflow: hidden;
-	overflow-y: scroll;
-	-webkit-overflow-y: scroll;
-	-o-overflow-y: scroll;
-	-ms-overflow-y: scroll;
+	z-index: 0 !important;
+	overflow: auto;
+	box-shadow: 0 1px 2px #777;
 }
 .xs-menu{
 	background: #fff;
+	overflow: hidden;
 }
 .xs-menu>li{
 	border-bottom: 1px solid #88be04;
@@ -1185,6 +1193,8 @@ a.active_step{
 	font-size: 16px;
 	padding: 0;
 	margin-left: 10px;
+	box-shadow: -1px 1px 2px #777;
+	border-radius: 0 0 0 3px;
 }
 #level-2,#level-5{
 	background: #eaf6ff;
@@ -1203,13 +1213,13 @@ a.active_step{
 	display: block;
 	width: 32px;
 	height: 32px;
-	background: url(../images/table.png) no-repeat;
+	background: url(/images/table.png) no-repeat center;
 }
 .icn-close{
 	display: block;
 	width: 32px;
 	height: 32px;
-	background: url(../images/close.png) no-repeat;	
+	background: url(/images/close.png) no-repeat center;
 }
 .close-menu{
 	display: none;
@@ -1313,7 +1323,7 @@ a.active_step{
 		text-align: center;
 		padding: 0;
 	}
-	.soc_link{
+	.link_footer a.soc_link{
 		float: none;
 		display: inline-block;
 	}
@@ -1323,11 +1333,11 @@ a.active_step{
 	.menu-top{
 		position: fixed;
 		top: 0;
-		height: 44px;
+		height: 50px;
 		width: 100%;
 		background: #88be04;
 		z-index: 1000;
-		padding-top: 5px;
+		padding-top: 8px;
 		box-shadow: 0 1px 2px #444;
 	}
 	.counter_products_blue{
@@ -1409,6 +1419,9 @@ a.active_step{
 	}
 	.step span{
 		display: inline-block;
+	}
+	.wr-prod__img{
+		height: 120px;
 	}
 }
 @media screen and (max-width:600px){

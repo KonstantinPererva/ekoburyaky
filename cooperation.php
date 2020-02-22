@@ -11,7 +11,9 @@ include 'include/container.php';
 						<div class="cooperation_main">
 							<h2 class="h2 text-uppercase text-center"><?php echo $t; ?></h2>
 							<p class="clearfix">
-								<img src="images/img-cooperation/img-small/coop3.jpg" alt="cooperation" class="img_ab_us img-left">
+								<a class="fancybox slide_a" data-fancybox-group="gallery5" href="images/img-cooperation/img-big/coop3.jpg">
+									<img src="images/img-cooperation/img-small/coop3.jpg" alt="cooperation" class="img_ab_us img-left">
+								</a>
 								У многих наших гостей возникает желание остаться, пожить в другом измерении, примерить это на себя или чему-то научиться. Для них у нас действует волонтерская программа. Выглядит это следующим образом: человек сообщает на сколько он хочет приехать и с какой целью. С нашей стороны мы обеспечиваем добровольцев скромным жильем, простой едой, такой же простой (чаще физической) работой и общением на любые интересующие темы. В большинстве случаев люди получают то, за чем приезжали и остаются довольны.
 							</p>
 							<div class="wr_cont bg_grey clearfix">

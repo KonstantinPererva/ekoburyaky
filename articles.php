@@ -28,7 +28,7 @@ if($temp[0] > 0){
 	$start = $page * $num - $num;
 	$quri_start_num = "LIMIT $start, $num";
 }
-$result = mysql_query("SELECT * FROM news ORDER BY news_datetime DESC $quri_start_num",$link);
+$result = mysql_query("SELECT * FROM news ORDER BY news_id DESC $quri_start_num",$link);
 if(mysql_num_rows($result) > 0){
 	$row = mysql_fetch_array($result);
 	do{
@@ -36,22 +36,24 @@ if(mysql_num_rows($result) > 0){
 							<div class="news_card">
 								<div class="row">
 									<div class="col-sm-4 img_news">
-										<img src="images/img-news/img-small/'.$row["news_img"].'" alt="новости" class="img-responsive"></div>
+										<img src="images/img-news/img-small/'.$row["news_img"].'" alt="новости" class="img-responsive img-thumbnail"></div>
 									<div class="col-sm-8 data_news">
-										<div class="date_news"><i class="fa fa-calendar" aria-hidden="true"></i>
-											<span>'.$row["news_datetime"].'</span>
-										</div>
 										<div class="h3_news">
-											<h3><a href="/viev_news.php?id='.$row["news_id"].'">'.$row["name_news"].'</a></h3>
+											<a href="'.$row["news_link_source"].'">
+												<h3>'.$row["news_name"].'</h3>
+											</a>
 										</div>
 										<div class="descr_news_small">
 											<p>
-												'.$row["descr_small"].'
+												'.$row["news_descr"].'
 											</p>
 										</div>
 										<div class="row">
 											<div class="col-xs-12">
-												<a href="/viev_news.php?id='.$row["news_id"].'" class="btn btn-success">Показать</a>
+												<p>
+													<strong>Источник статьи:</strong> '.$row["news_name_source"].'
+												</p>
+												<a href="'.$row["news_link_source"].'" class="btn btn-success" target="_blank">Читать</a>
 											</div>
 										</div>
 									</div>

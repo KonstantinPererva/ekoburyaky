@@ -6,6 +6,7 @@ include 'include/header.php';
 <?php
 include 'include/container.php';
 ?>
+
 						<h2 class="h2 text-center"><?php echo $t ?></h2>
 						<div class="about_us_main">
 							<div class="row">
@@ -25,13 +26,26 @@ include 'include/container.php';
 							</div>
 							<div class="row">
 								<div class="col-xs-12">
-									<div id="map-index" class="img_ab_us">
-									</div>
-								</div>
+									<div id="map" class="img_ab_us"></div>
+                                    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAO1G8MC4ZYQ_B7k5repEKfiz1KSeS8cHg&callback=initMap"></script>
+                                    <script>
+                                        function initMap(){
+                                            var map = new google.maps.Map(document.getElementById('map'),{
+                                                zoom: 11,
+                                                center: {lat: 49.665675, lng: 36.158005},
+                                                scrollwheel: false
+                                            });
+                                            var marker = new google.maps.Marker({
+                                                position: {lat: 49.665675, lng: 36.158005},
+                                                map: map,
+                                                visible: true,
+                                                icon: 'images/mark_map.png'
+                                            });
+                                        };
+                                    </script>
+                                </div>
 							</div>
 						</div>
-					
-
 <?php 
 include 'include/footer.php';
  ?>

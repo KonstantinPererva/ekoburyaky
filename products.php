@@ -33,7 +33,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -78,7 +80,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -123,7 +127,9 @@ if(mysql_num_rows($result) > 0){
 
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -167,7 +173,9 @@ if(mysql_num_rows($result) > 0){
 		echo '
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -196,11 +204,11 @@ echo '						</div>
 		';
 break;
 
-case 'young_animals':
+case 'goats':
 
-echo '						<h2 class="h2-products text-center">Молодняк</h2>
+echo '						<h2 class="h2-products text-center">Козы</h2>
 							<div class="col-xs-12 fz-0 text-center p-10">';
-$result = mysql_query("SELECT * FROM table_products WHERE visible='1' AND product_type='young_animals' ORDER BY products_id DESC $quri_start_num",$link);
+$result = mysql_query("SELECT * FROM table_products WHERE visible='1' AND product_type='goats' ORDER BY products_id DESC $quri_start_num",$link);
 if(mysql_num_rows($result) > 0){
 	$row = mysql_fetch_array($result);
 	do{
@@ -209,7 +217,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -252,7 +262,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -294,7 +306,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">
@@ -335,7 +349,9 @@ if(mysql_num_rows($result) > 0){
 			
 								<figure class="prod_card">
 									<a href="viev_content.php?id='.$row["products_id"].'">
-										<img src="images/shop/img-products/img-small/'.$row["image"].'" alt="Товар">
+										<div class="wr-prod__img">
+											<img src="images/shop/img-products/img-small/'.$row["image"].'" class="prod__img" alt="Товар">
+										</div>
 									</a>	
 									<figcaption class="prod_data">
 										<p class="prod_name text-center">

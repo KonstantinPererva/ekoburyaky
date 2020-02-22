@@ -1,7 +1,7 @@
 <?php
 
 $data = $_POST['dataOrder'];
-$to = 'irenpoz@yandex.ru';
+$to = 'info@ekoburyaky.in.ua';
 $subject = 'Заказ товара';
 $msg = "$data";
 
